@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+ .box1{
+    display: flex;
+    padding: 15px;
+   
+    /* background-color: aqua; */
+    font-family: "Roboto",sans-serif;
+   justify-content:end;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+     list-style-type: none;
+    text-align: justify;
+}
+.images{
+    padding: 50px;
+    margin: auto 5px;
+    display: flex;
+    justify-content: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    flex-wrap: nowrap;
+    font-size: xx-large;
+    image-rendering: auto;
+}
+form input{
+
+    display: inline-flexbox;
+}
+#india{
+    padding-inline-end: 20px;
+}
